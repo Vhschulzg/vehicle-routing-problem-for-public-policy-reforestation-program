@@ -19,7 +19,7 @@ from folium.plugins import MarkerCluster
 # =========================
 # Load Data
 # =========================
-def load_data(filepath):
+def load_data(filepath): data/locations.xlsx
     df = pd.read_excel(filepath)
 
     required_columns = ['Location', 'Latitude', 'Longitude']
